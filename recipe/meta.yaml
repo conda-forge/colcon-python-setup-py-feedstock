@@ -1,17 +1,17 @@
 {% set name = "colcon-python-setup-py" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://github.com/colcon/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 616ce115be2e76a4abad9095828aa7effcb49d7b009368147306c645b367bab9
+  sha256: cb00410425395132b936b0ab6712c88e1b5eb42a071bd78edfb70415cf8aa760
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
