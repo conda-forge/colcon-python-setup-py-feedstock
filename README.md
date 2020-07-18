@@ -5,7 +5,7 @@ Home: https://github.com/colcon/colcon-python-setup-py
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An extension for colcon-core to identify packages with a setup.py
 file by introspecting the arguments to the setup() function call of setuptools.
