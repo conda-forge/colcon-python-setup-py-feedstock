@@ -17,10 +17,11 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.5
   run:
     - python >=3.5
-    - colcon-core >=0.3.10
+    - colcon-core >=0.6.1
     - setuptools
 
 test:
