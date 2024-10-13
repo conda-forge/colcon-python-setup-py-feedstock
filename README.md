@@ -1,11 +1,11 @@
-About colcon-python-setup-py
-============================
+About colcon-python-setup-py-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/colcon-python-setup-py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/colcon/colcon-python-setup-py
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/colcon-python-setup-py-feedstock/blob/main/LICENSE.txt)
 
 Summary: An extension for colcon-core to identify packages with a setup.py
 file by introspecting the arguments to the setup() function call of setuptools.
@@ -97,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -146,5 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@seanyen](https://github.com/seanyen/)
+* [@traversaro](https://github.com/traversaro/)
 * [@wolfv](https://github.com/wolfv/)
 
