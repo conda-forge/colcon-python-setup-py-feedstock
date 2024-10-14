@@ -18,9 +18,9 @@ requirements:
   host:
     - pip
     - setuptools
-    - python >=3.5
+    - python >=3.6
   run:
-    - python >=3.5
+    - python >=3.6
     - colcon-core >=0.6.1
     - setuptools
 
